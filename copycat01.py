@@ -11,7 +11,7 @@ os.chdir("/home/student/mycode/")
 shutil.copy("5g_research/sdn_network.txt", "5g_research/sdn_network.txt.copy")
 
 # copy the entire directoryA to directoryB
-shutil.copytree("5g_research/", "5g_reseach_backup/")
+shutil.copytree("5g_research/", "5g_research_backup/")
 
 
 
