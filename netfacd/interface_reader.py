@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+
+# import library
+import netifaces
+
+print(netifaces.interfaces())
+
+for i in netifaces.interfaces():
+    print('\n**************Details of Interface - ' + i +' ************')
+    print(netifaces.ifaddresses(i))
+
